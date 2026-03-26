@@ -156,7 +156,7 @@ def batch(folder, size=1200):
         print(f"  Original  : {total_orig / 1024:.2f} MB")
         print(f"  JPEG      : {total_jpg  / 1024:.2f} MB  ({(1 - total_jpg / total_orig) * 100:.0f}% smaller)")
         # print(f"\n  Each image has a matching .json with dominantColor + blurDataURL")
-        # print(f"  Upload these values to Shopify product metafields.")
+      
 
 
 script_dir = str(pathlib.Path(__file__).parent)
