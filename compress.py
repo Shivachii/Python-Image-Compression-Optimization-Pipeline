@@ -122,7 +122,7 @@ def process_image(path, jpg_folder, size=1200):
 
 
 def batch(folder, size=1200):
-    jpg_folder = os.path.join(folder, "swimshorts")
+    jpg_folder = os.path.join(folder, "results")
     os.makedirs(jpg_folder, exist_ok=True)
 
     image_files = [f for f in os.listdir(folder) if f.lower().endswith(SUPPORTED_FORMATS)]
